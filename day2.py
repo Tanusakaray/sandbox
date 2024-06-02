@@ -1,6 +1,7 @@
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://tsakaray:Laddercar33@cluster0.56qnius.mongodb.net/?retryWrites=true&w=majority")
+# connection string 
+client = MongoClient("mongodb+srv://lsakaray:Laddercar33@cluster0.56qnius.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
 
 
@@ -42,7 +43,7 @@ def delete():
 
 def find():
     
-
+# input from user 
 user = int(input("What operation do you want? "))
 if user == 1:
 
